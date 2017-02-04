@@ -28,7 +28,7 @@ module.exports = function(sails) {
         return cb();
       }
    
-      var compilerOptions = { module: ts.ModuleKind.System };
+      var compilerOptions = { module: ts.ModuleKind.CommonJS };
       
       self.checkIgnored = function(dir) {
         
